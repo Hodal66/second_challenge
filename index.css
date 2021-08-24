@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+}
+header .p1{
+    font-size:70px;
+    font-weight: 700;
+
+}
+header p span{
+    color: gray;
+    font-size:70px;
+    font-weight: 700;
+}
+header p label{
+    font-size:70px;
+    font-weight: 700;
+    padding: 2px;
+}
+header .btns{
+    display: flex;
+    margin: 0% 35% 0% 35%;
+    flex-direction: row;
+}
+header .btns input{
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid gainsboro;
+    width: 300px;
+    font-weight: 10%;
+
+
+}
+::placeholder{
+    color: gainsboro;
+    font-size: x-large;
+}
+header .btns button{
+    padding: 15px;
+    border-radius: 50px;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    width: 200px;
+    margin-left: 4%;
+    border:1px solid hsl(223, 87%, 63%);
+}
+footer
+.fa {
+    background-color: white;
+    margin: 0.5em;
+    font-size: 2em;
+    color: hsl(223, 87%, 63%);
+    border: 2px solid blue;
+    border-radius: 50%;
+    padding: 0.5em;
+    transition: all .5s ease;
+  }
+  
+  i.fa:hover{
+    color:red;
+     border: 2px solid lightblue;
+    cursor:pointer;
+  }
+  footer div{
+      text-align: center;
+  }
+  footer div p{
+    font-size: 200%;
+    color: gray;
+  }
+  /* responsiveness in the telephone */
+  @media  screen and (max-width: 375px){
+    header .btns{
+
+        flex-direction: column;
+    }
+    footer div p {
+        font-size: 100%;
+    }
+    header .p1{
+        font-size:30px;
+    
+    }
+    header .btns button {
+        width: 241px;
+        margin-left: -56%;
+        margin-bottom: 50px;
+    }
+    section img{
+        width: 100%;
+        height: 100%;
+    }
+    header .btns input {
+        margin-left: -64px;
+        padding: 11px;
+        width: 218px;
+        margin-bottom: 9px;
+    }
+    ::placeholder{
+        color: gainsboro;
+        font-size: 10px;
+  }
+  header p span {
+    font-size: 40px;
+   
+}
+header p label{
+    font-size:40px;
+}}
